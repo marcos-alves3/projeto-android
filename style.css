@@ -1,0 +1,164 @@
+ * {
+     margin: 0%;
+     padding: 0%
+ }
+ 
+ @charset 'UTF-8';
+
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ @font-face {
+     font-family: 'Android';
+     src: url('/fontes/idroid.otf'); format:('opentype');
+     font-weight: normal;
+ }
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063d1e;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Dancing Script', cursive;
+    --fonte-android: 'Android', cursive;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    color: var(--cor0);
+    background-color: var(--cor1);
+}
+
+header {
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    padding-top: 20px;
+    background-image: linear-gradient(to top, #1A5C37, #83E1AD );
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+    color: white;
+}
+
+header > h1 {
+     padding-bottom: 30px;
+     font-weight: normal;
+     
+}
+
+nav {
+    background-color: var(--cor4);
+    padding: 10px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.336);
+
+}
+
+nav > a {
+    color: var(--cor0);
+    padding-right: 0px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+a:hover {
+    background-color: var(--cor3);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.24);
+}
+
+main {
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: white;
+    padding: 20px;
+    line-height: 1.5em;
+    text-align: justify;
+    color: black;
+    font-weight: bolder;
+    box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.336);
+    border-radius: 0px 0px 10px 10px;
+}
+
+picture > img {
+    width: 100%;
+}
+
+h1 {
+    font-family: var(--fonte-android);
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-family: var(--fonte-android);
+   padding-top: 10px;
+}
+
+main > p {
+    text-indent: 30px;
+}
+
+img.bugdroid {
+    position: relative;
+    left: 30%;
+    width: 50%;
+}
+
+div.video {
+    position: relative;
+    background-color: var(--cor4);
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    
+}
+
+article > p.aprender {
+    background-color: var(--cor3);
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.459);
+}
+
+article > p {
+    text-indent: 30px;
+    padding-top: 10px;
+    
+}
+
+aside {
+    background-color: var(--cor0);
+    padding: 10px 15px 10px 15px;
+    text-indent: 30px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.459);
+}
+
+ul {
+    list-style-type: '\2714\0020';
+    columns: 2;
+    list-style-position: inside;
+    padding: 10px 0px 10px 0px;
+}
+
+footer {
+    background-color: var(--cor5);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+    font-size: 13px;
+}
