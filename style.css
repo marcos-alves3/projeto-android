@@ -125,7 +125,7 @@ div.video > iframe {
     
 }
 
-article > p.aprender {
+    .aprender {
     background-color: var(--cor3);
     padding: 10px;
     border-radius: 10px 10px 0px 0px;
@@ -137,6 +137,10 @@ article > p {
     text-indent: 30px;
     padding-top: 10px;
     
+}
+
+.simpatico {
+    padding-top: 10px;
 }
 
 aside {
